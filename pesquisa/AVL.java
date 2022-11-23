@@ -20,6 +20,7 @@ public class AVL extends Metodo {
 			return new NoAVL(conta);
 		} else if (no.getNome().equals(conta.getNome())) {
 			no.setInfo(conta);
+			h = false;
 			return no;
 		}
 		if (no.getNome().compareTo(conta.getNome()) > 0) {

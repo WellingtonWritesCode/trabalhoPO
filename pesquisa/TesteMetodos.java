@@ -56,8 +56,10 @@ public class TesteMetodos {
 					}
 				}
 			}
+			escreveSaida("src/pesquisa/Arquivos/tempos.txt", saida);
 		} catch (FileNotFoundException e) {
 			System.out.println("Arquivo nao encontrado");
+			System.err.println(e.getMessage());
 		} catch (IOException e) {
 			System.out.println("Arquivo nao pode ser aberto para gravacao");
 		}
