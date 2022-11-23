@@ -143,10 +143,10 @@ public class AVL extends Metodo {
 		if (no == null) {
 			return null;
 		}
-		if (no.getNome().compareTo(nome) < 0) {
+		if (no.getNome().compareTo(nome) > 0) {
 			return pesquisa(nome, no.getEsq());
 		}
-		if (no.getNome().compareTo(nome) > 0) {
+		if (no.getNome().compareTo(nome) < 0) {
 			return pesquisa(nome, no.getDir());
 		}
 		return no;
