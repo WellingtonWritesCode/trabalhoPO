@@ -81,14 +81,16 @@ public class AVL extends Metodo {
 			temp2.setEsq(temp1);
 			no.setEsq(temp2.getDir());
 			temp2.setDir(no);
-			if (temp2.getFatorBalanceamento() == -1)
+			if (temp2.getFatorBalanceamento() == -1) {
 				no.setFatorBalanceamento((byte) 1);
-			else
+			} else {
 				no.setFatorBalanceamento((byte) 0);
-			if (temp2.getFatorBalanceamento() == 1)
+			}
+			if (temp2.getFatorBalanceamento() == 1) {
 				temp1.setFatorBalanceamento((byte) -1);
-			else
+			} else {
 				temp1.setFatorBalanceamento((byte) 0);
+			}
 			no = temp2;
 		}
 		no.setFatorBalanceamento((byte) 0);
@@ -110,14 +112,16 @@ public class AVL extends Metodo {
 			temp2.setDir(temp1);
 			no.setDir(temp2.getEsq());
 			temp2.setEsq(no);
-			if (temp2.getFatorBalanceamento() == 1)
+			if (temp2.getFatorBalanceamento() == 1) {
 				no.setFatorBalanceamento((byte) -1);
-			else
+			} else {
 				no.setFatorBalanceamento((byte) 0);
-			if (temp2.getFatorBalanceamento() == -1)
+			}
+			if (temp2.getFatorBalanceamento() == -1) {
 				temp1.setFatorBalanceamento((byte) 1);
-			else
+			} else {
 				temp1.setFatorBalanceamento((byte) 0);
+			}
 			no = temp2;
 		}
 		no.setFatorBalanceamento((byte) 0);
