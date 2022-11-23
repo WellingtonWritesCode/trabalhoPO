@@ -16,7 +16,7 @@ public class TesteMetodos {
 
 	public static void main(String[] args) {
 		String[] metodos = { "ABB", "AVL", "Hashing" };
-		int[] tamanhos = { 50000 };
+		int[] tamanhos = { 500, 1000, 5000, 10000, 50000 };
 		String[] tipos = { "alea", "inv", "ord" };
 		String arquivo;
 		long tempoInicial;
