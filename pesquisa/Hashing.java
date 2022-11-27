@@ -39,13 +39,33 @@ public class Hashing extends Metodo {
 		if(lista[index] == null) {
 			lista[index] = new LinkedList<Conta>();
 		}
-		lista[index].add(conta);
+                boolean inserido;
+                do{
+                    inserido = lista[index].getFirst().getNome().equals(conta.getNome());
+                if(inserido){
+                    lista[index].add(conta);
+                } else {
+                    index = (index+1)%lista.length;
+                }}while(!inserido);
+		
 	}
 	
 	@Override
 	public LinkedList<Conta> pesquisa(String nome) {
-		int index = getIndex(nome);
-		return lista[index];
+		int indexInicial = getIndex(nome);
+                int index = indexInicial;
+                boolean inserido;
+                do{
+                    inserido = lista[index].getFirst().getNome().equals(nome);
+                if(inserido){
+                    return lista[index];
+                } else {
+                    index = (index+1)%lista.length;
+                    if(index == indexInicial){
+                        return null;
+                    }
+                }}while(!inserido);
+                return null;
 	}
 	
 	private int getIndex(String str) {
