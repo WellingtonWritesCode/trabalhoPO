@@ -52,7 +52,7 @@ public class TesteMetodos {
 							escreveSaida("src/pesquisa/Arquivos/" + metodo + arquivo, pesquisa);
 						}
 						double tempoMedio = (System.currentTimeMillis() - tempoInicial) / 5;
-						saida.add(String.format("Tempo medio (%s|%d|%s): %.2f ms", metodo, tamanho, tipo, tempoMedio));
+						saida.add(String.format("%s;%d;%s;%.0f", metodo, tamanho, tipo, tempoMedio));
 					}
 				}
 			}

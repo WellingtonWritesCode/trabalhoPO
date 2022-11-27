@@ -1,90 +1,90 @@
-Tempo medio (ABB|500|alea): 8,00 ms
+ABB;500;alea;33
 
-Tempo medio (ABB|500|inv): 5,00 ms
+ABB;500;inv;13
 
-Tempo medio (ABB|500|ord): 3,00 ms
+ABB;500;ord;9
 
-Tempo medio (ABB|1000|alea): 2,00 ms
+ABB;1000;alea;10
 
-Tempo medio (ABB|1000|inv): 4,00 ms
+ABB;1000;inv;16
 
-Tempo medio (ABB|1000|ord): 4,00 ms
+ABB;1000;ord;15
 
-Tempo medio (ABB|5000|alea): 8,00 ms
+ABB;5000;alea;23
 
-Tempo medio (ABB|5000|inv): 68,00 ms
+ABB;5000;inv;184
 
-Tempo medio (ABB|5000|ord): 79,00 ms
+ABB;5000;ord;211
 
-Tempo medio (ABB|10000|alea): 14,00 ms
+ABB;10000;alea;27
 
-Tempo medio (ABB|10000|inv): 319,00 ms
+ABB;10000;inv;737
 
-Tempo medio (ABB|10000|ord): 346,00 ms
+ABB;10000;ord;877
 
-Tempo medio (ABB|50000|alea): 81,00 ms
+ABB;50000;alea;141
 
-Tempo medio (ABB|50000|inv): 17684,00 ms
+ABB;50000;inv;51494
 
-Tempo medio (ABB|50000|ord): 22713,00 ms
+ABB;50000;ord;54514
 
-Tempo medio (AVL|500|alea): 2,00 ms
+AVL;500;alea;7
 
-Tempo medio (AVL|500|inv): 2,00 ms
+AVL;500;inv;6
 
-Tempo medio (AVL|500|ord): 2,00 ms
+AVL;500;ord;5
 
-Tempo medio (AVL|1000|alea): 3,00 ms
+AVL;1000;alea;8
 
-Tempo medio (AVL|1000|inv): 2,00 ms
+AVL;1000;inv;6
 
-Tempo medio (AVL|1000|ord): 3,00 ms
+AVL;1000;ord;7
 
-Tempo medio (AVL|5000|alea): 9,00 ms
+AVL;5000;alea;24
 
-Tempo medio (AVL|5000|inv): 9,00 ms
+AVL;5000;inv;22
 
-Tempo medio (AVL|5000|ord): 9,00 ms
+AVL;5000;ord;17
 
-Tempo medio (AVL|10000|alea): 19,00 ms
+AVL;10000;alea;26
 
-Tempo medio (AVL|10000|inv): 20,00 ms
+AVL;10000;inv;21
 
-Tempo medio (AVL|10000|ord): 18,00 ms
+AVL;10000;ord;18
 
-Tempo medio (AVL|50000|alea): 98,00 ms
+AVL;50000;alea;160
 
-Tempo medio (AVL|50000|inv): 82,00 ms
+AVL;50000;inv;105
 
-Tempo medio (AVL|50000|ord): 93,00 ms
+AVL;50000;ord;119
 
-Tempo medio (Hashing|500|alea): 2,00 ms
+Hashing;500;alea;13
 
-Tempo medio (Hashing|500|inv): 2,00 ms
+Hashing;500;inv;9
 
-Tempo medio (Hashing|500|ord): 1,00 ms
+Hashing;500;ord;7
 
-Tempo medio (Hashing|1000|alea): 2,00 ms
+Hashing;1000;alea;4
 
-Tempo medio (Hashing|1000|inv): 2,00 ms
+Hashing;1000;inv;4
 
-Tempo medio (Hashing|1000|ord): 2,00 ms
+Hashing;1000;ord;4
 
-Tempo medio (Hashing|5000|alea): 8,00 ms
+Hashing;5000;alea;11
 
-Tempo medio (Hashing|5000|inv): 8,00 ms
+Hashing;5000;inv;11
 
-Tempo medio (Hashing|5000|ord): 8,00 ms
+Hashing;5000;ord;10
 
-Tempo medio (Hashing|10000|alea): 15,00 ms
+Hashing;10000;alea;16
 
-Tempo medio (Hashing|10000|inv): 17,00 ms
+Hashing;10000;inv;17
 
-Tempo medio (Hashing|10000|ord): 15,00 ms
+Hashing;10000;ord;19
 
-Tempo medio (Hashing|50000|alea): 73,00 ms
+Hashing;50000;alea;88
 
-Tempo medio (Hashing|50000|inv): 76,00 ms
+Hashing;50000;inv;83
 
-Tempo medio (Hashing|50000|ord): 88,00 ms
+Hashing;50000;ord;93
 
